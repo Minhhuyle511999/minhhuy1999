@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-11 11:00:19 PM"/>
+        <attribute name="created" value="QWRtaW47QURNSU4tUEM7MjAxOS0wMy0xMTswOToxMDozMyBQTTsyMzE5"/>
+        <attribute name="edited" value="QWRtaW47QURNSU4tUEM7MjAxOS0wMy0xMTsxMTowMDoxOSBQTTsxOzI0MjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="show" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="show" expression="0"/>
+            <output expression="&quot;enter n&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="2"/>
+            <while expression="i&lt;=n">
+                <assign variable="show" expression="a+b"/>
+                <assign variable="" expression=""/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
